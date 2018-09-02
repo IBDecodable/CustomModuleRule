@@ -1,4 +1,4 @@
-// swift-tools-version:4.0
+// swift-tools-version:4.1
 
 import PackageDescription
 
@@ -10,7 +10,7 @@ let package = Package(
             targets: ["CustomModule"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/IBDecodable/IBLinter.git", .revision("5e9af9735360c85e3071826e364619f57243426e")),
+        .package(url: "https://github.com/IBDecodable/IBLinter.git", from: "0.4.0"),
         .package(url: "https://github.com/jpsim/SourceKitten.git", from: "0.21.1"),
     ],
     targets: [
