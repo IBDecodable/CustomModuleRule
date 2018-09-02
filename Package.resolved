@@ -41,7 +41,7 @@
         "package": "IBLinter",
         "repositoryURL": "https://github.com/IBDecodable/IBLinter.git",
         "state": {
-          "branch": "remove-sourcekitten",
+          "branch": null,
           "revision": "5e9af9735360c85e3071826e364619f57243426e",
           "version": null
         }
